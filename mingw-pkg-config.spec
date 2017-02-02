@@ -1,6 +1,6 @@
 Name:           mingw-pkg-config
 Version:        0.28
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        A tool for determining compilation options
 
 License:        GPLv2+
@@ -91,6 +91,9 @@ rm -rf ${RPM_BUILD_ROOT}%{_datadir}/doc/pkg-config
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.28-7
+- Rebuild with GCC 5.4.0
+
 * Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 0.28-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
 
